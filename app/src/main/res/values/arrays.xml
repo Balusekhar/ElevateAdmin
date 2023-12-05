@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="class_categories">
+        <item>Yoga</item>
+        <item>Cardio</item>
+        <item>Strength Training</item>
+        <item>Zumba</item>
+        <item>Diving</item>
+        <item>Running</item>
+    </string-array>
+</resources>

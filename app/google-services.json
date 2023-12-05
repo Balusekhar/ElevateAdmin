@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "914698735625",
+    "project_id": "elevate-66efc",
+    "storage_bucket": "elevate-66efc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914698735625:android:35427feb72b1ca373fe8d8",
+        "android_client_info": {
+          "package_name": "com.example.elevate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa9i8s05Zp1CjAtAa8JbGDbzUK8Hy5V3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914698735625:android:a9b1a2686b8390fc3fe8d8",
+        "android_client_info": {
+          "package_name": "com.example.elevateadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa9i8s05Zp1CjAtAa8JbGDbzUK8Hy5V3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

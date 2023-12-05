@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/className"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter class name"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Desciption"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/dateOfTheClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:hint="Class Date (e.g., YYYY-MM-DD)"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+
+    <Spinner
+        android:id="@+id/selectCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:entries="@array/class_categories"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/uploadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload An Image"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#0385EC"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/uploadedImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        android:contentDescription="Uploaded Image" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/black"/>
+
+
+</LinearLayout>
