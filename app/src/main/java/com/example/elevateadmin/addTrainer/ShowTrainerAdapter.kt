@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.elevateadmin.addClass.ClassDetails
 import com.example.elevateadmin.databinding.ItemRowAddtrainerBinding
 
 class ShowTrainerAdapter(private var trainerDetails:List<TrainerDetails>)
